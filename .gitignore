@@ -1,0 +1,34 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Virtual environment
+venv/
+env/
+
+# Build, test, and temporary files
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.egg
+htmlcov/
+.pytest_cache/
+coverage.xml
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+
+# IDE and editor specific files
+.idea/
+*.swo
+
+# Static assets (usually managed separately)
+static/
+node_modules/
+npm-shrinkwrap.json
+yarn.lock
